@@ -1,0 +1,120 @@
+/* tete de page */
+.list ul{
+  display: flex;
+  list-style-type: none;
+}
+.list ul li a{
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  margin: 0;
+  padding: 16px;
+  text-transform: uppercase;
+}
+li:hover a{
+background-color: #EB43A3;
+padding-top: 28px;
+padding-bottom: 29px;
+}
+.logo{
+margin-left: 15px;
+}
+nav{
+  background-color: #E577B5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .jtm {
+    color: #fff;
+    font-family:'Courgette', cursive;
+}
+  
+/* contenu */
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(background.png);
+}
+
+.rainbow{
+  display: flex;
+  justify-content: center;
+}
+.rainbow img{
+  width: 385px;
+}
+.titre {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -200px;
+}
+section{
+  margin: -15% 15% ;
+  background-color:white;
+  height: 1200px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 8px #333);
+  margin-bottom: 80px;
+
+}
+.jojo{
+  margin: 40px;
+  padding: 15px;
+}
+h1{
+  color:  #EB43A3;   
+}
+iframe{ 
+  float: left;  
+  margin-top: 60px;
+  margin: 30px;
+}
+button{
+    background-color: #EB43A3;
+    border-radius: 3px;
+    border-color: #EB43A3;
+}
+.photo{
+display: flex;
+    
+}
+figcaption{
+  text-align: center;
+opacity: 80%;
+background-color: #000;
+margin-top: -40px;
+height: 20px;
+}
+figcaption p{
+  color: #fff;
+}
+h4{
+  color: #EB43A3;
+}
+
+
+img{
+  height: 250px;
+  width: 200px;
+
+}
+figure{
+  margin: 15px;
+}
+/* effet zoom */
+figure img:hover{
+  height: 300px;
+  width: 230px;
+}
+/* pied du page */
+footer{
+  background-color:#E577B5 ; 
+  height: 50px; 
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  color: #fff;
+}
